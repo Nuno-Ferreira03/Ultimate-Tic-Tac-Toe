@@ -1,0 +1,135 @@
+#center {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outer-container {
+  position: relative;
+  width: 800px;
+  height: 130px;
+  margin: 50px 120px;
+  padding: 250px;
+  border: 8px solid #b13e53;
+  box-shadow: 0 0 0 8px #ef7d57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-container h1 {
+  margin-right: 10px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  margin-top: 40px;
+  font-family: "Press Start 2P";
+  font-size: 18px;
+  background-color: #ffcd75;
+  color: #333c57;
+  border: 5px solid #b13e53;
+}
+
+.button-jogo:hover {
+  box-shadow: 0 0 0 5px #ef7d57;
+  border-width: 5px;
+}
+
+.outer-container::before {
+  content: "X";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ef7d57;
+}
+.outer-container::after {
+  content: "O";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ef7d57;
+}
+
+.outer-container::before {
+  top: 0;
+  left: 0;
+}
+
+.outer-container::after {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  color: #ef7d57;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  color: #ef7d57;
+}
+
+.title {
+  font-size: 32px;
+  color: #333c57;
+  position: absolute;
+  top: 3%;
+  left: 21%;
+}
+
+.title::first-letter {
+  color: #ef7d57;
+}
+
+
+.span-jogo {
+  display: flex;
+  margin-left: 20px;
+  font-size: 32px;
+  color: #ef7d57;
+}
+
+.clock-container {
+  position: absolute;
+  top: 43%;
+  right: 8%;
+  margin: 20px;
+}

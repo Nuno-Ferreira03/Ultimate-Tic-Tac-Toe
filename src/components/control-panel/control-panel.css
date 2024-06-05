@@ -1,0 +1,34 @@
+.control-panel input {
+  height: 40px;
+  width: 200px;
+  margin: 20px 15px 10px 0;
+  padding: 5px;
+  border: 4px solid #b13e53;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+}
+
+.control-panel input:focus {
+  outline: none;
+  border-color: #ef7d57;
+  box-shadow: 0 0 0 1px #ef7d57;
+}
+
+.control-panel .jogo-button {
+  height: 40px;
+  width: 200px;
+  margin-top: 25px;
+  padding: 5px;
+  background-color: #ffcd75;
+  color: #333c57;
+  border: 5px solid #b13e53;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+}
+
+.jogo-button:hover {
+  box-shadow: 0 0 0 5px #ef7d57;
+  border-width: 5px;
+}

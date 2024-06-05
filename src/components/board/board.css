@@ -1,0 +1,32 @@
+.board {
+  padding: 10px;
+}
+
+.game {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  border: 1px #ef7d57;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game-info {
+  margin-left: 20px;
+}

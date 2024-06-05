@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../../../public/PressStart2P.ttf") format("truetype");
+}
+
+body {
+  background-color: #ffcd75;
+  font-family: "Press Start 2P";
+}
+
+h1 {
+  font-size: 32px;
+  color: #333c57;
+}
+
+h1::first-letter {
+  color: #ef7d57;
+}
+
+.span {
+  margin-left: 20px;
+  font-size: 32px;
+  color: #ef7d57;
+}
